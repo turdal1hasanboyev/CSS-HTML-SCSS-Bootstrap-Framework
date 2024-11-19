@@ -1,0 +1,13 @@
+p {
+    color: red;
+}
+
+/* p - selector (tanlab oluvchi) */
+/* color - property (xossa) */
+/* red - value (qiymat) */
+
+/* still berilayotganda selectordan keyin {} qo'yiladi  ichiga xossa va qiymat kirtiladi*/
+/* Hossadan keyin : qo'yiladi va keyin value yani qiymat kirtiladi */
+/* Qiymat kirtilgandan keyin ; qo'yiladi va keyin yangi xossa va qiymat boshlanadi */
+/* shu tartibda davom etiladi */
+/* {} - Figurali qavslar */

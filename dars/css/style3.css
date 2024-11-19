@@ -1,0 +1,56 @@
+/* Selectors - Tanlab oluvchilar */
+
+/*
+Element (Tag)
+Class
+ID
+Attribute
+Universal
+*/
+
+p {
+    /* tag name {} */
+    color: red;
+}
+
+/* tag orqali still berish */
+
+.paragraph {
+    /* .class name {} */
+    font-size: 18px;
+    color: blue;
+}
+
+/* class orqali still berish */
+
+#my-paragraph {
+    /* #id name {} */
+    font-weight: bold;
+    color: green;
+}
+
+/* id orqali still berish */
+
+[disabled] {
+    /* [attribute name] {} */
+    background-color: lightgray;
+    /* orqa fon */
+    cursor: not-allowed;
+    /* sichqoncha borganda yumaloq qizil chiqishi (Sichqonchaning yoqolib qolishi) */
+    opacity: 0.5;
+    /* korinuvchanlik */
+}
+
+/* attribute orqali still berish */
+
+* {
+    /* universal selector */
+    color: aqua;
+}
+
+/* universal selector orqali still berish bir vaqtning ozida hamma elementlar uchun */
+
+/* Izoh qoldirish uchun */
+/*
+Qator korinishidagi izoh uchun
+*/

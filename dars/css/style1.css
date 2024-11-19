@@ -1,0 +1,44 @@
+/* External styles */
+/* css fayl ochib uni html faylga link orqali ulash kerak */
+
+h3 {
+    /* tagga still berish */
+    font-size: 20px;
+    /* yozuv kattaligi */
+    font-weight: bold;
+    /* yozuv qalinligi */
+    background-color: red;
+    /* orqa fon rangi */
+    color: blue;
+    /* rang berish (yozuvga) */
+    width: 50%;
+    /* kenglik */
+}
+
+.heading-4 {
+    /* class ga still berish */
+    font-size: 16px;
+    /* yozuv kattaligi */
+    font-weight: bold;
+    /* yozuv qalinligi */
+    background-color: green;
+    /* orqa fon rangi */
+    color: white;
+    /* rang berish (yozuvga) */
+    width: 50%;
+    /* kenglik (yoyilishi yoki joy egallashi) */
+}
+
+#heading-5 {
+    /* id ga still berish */
+    font-size: 14px;
+    /* yozuv kattaligi  (px da)*/
+    font-weight: bold;
+    /* yozuv qalinligi */
+    background-color: black;
+    /* orqa fon rangi */
+    color: aqua;
+    /* rang berish (yozuvga) */
+    width: 56%;
+    /* kenglik */
+}
