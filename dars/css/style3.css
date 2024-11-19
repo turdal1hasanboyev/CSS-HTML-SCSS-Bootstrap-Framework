@@ -11,6 +11,7 @@ Universal
 p {
     /* tag name {} */
     color: red;
+    /* rangi qizilga bo'yaladi */
 }
 
 /* tag orqali still berish */
@@ -18,7 +19,9 @@ p {
 .paragraph {
     /* .class name {} */
     font-size: 18px;
+    /* yozuv kattaligi */
     color: blue;
+    /* rang yozuvlar uchun */
 }
 
 /* class orqali still berish */
@@ -26,6 +29,7 @@ p {
 #my-paragraph {
     /* #id name {} */
     font-weight: bold;
+    /* yozuv qalinligi */
     color: green;
 }
 
@@ -34,11 +38,13 @@ p {
 [disabled] {
     /* [attribute name] {} */
     background-color: lightgray;
+    /* orqa fon rangi */
     /* orqa fon */
     cursor: not-allowed;
     /* sichqoncha borganda yumaloq qizil chiqishi (Sichqonchaning yoqolib qolishi) */
     opacity: 0.5;
     /* korinuvchanlik */
+    /* 1.0 odatiy normal hol */
 }
 
 /* attribute orqali still berish */
@@ -51,6 +57,7 @@ p {
 /* universal selector orqali still berish bir vaqtning ozida hamma elementlar uchun */
 
 /* Izoh qoldirish uchun */
+
 /*
 Qator korinishidagi izoh uchun
 */
