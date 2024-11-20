@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inheritance (Meros olish)</title>
+    <style>
+        body {
+            /* body doim eng katta ota ona boladi */
+            font-family: serif;
+            /* font berish */
+        }
+
+        /* h1 va p elementlari oziga kerakli bolgan barcha meroslarni unikal ya'ni takrorlanmas holatda oladi (birinchi olgani xisob bo'ladi) */
+        div {
+            color: yellow;
+        }
+
+        section {
+            color: red;
+        }
+
+        p {
+            color: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <div>
+            <h1>Heading 1</h1>
+            <!-- h1 elementining o'z stili yoq u ajdodidan sorashni boshlaydi u birinchi bolib div dan soraydi va u oziga kerakli bolgan stillarni oladi va jarayon shu joyda toxtaydi chunki oziga kerakli bolgan stillni topib boldi -->
+            <!-- Misol uchun farzandga shokolad kerak u dadasidan soradi va shokoladni oldi lekin u shokoladni bobosidan ham olishi mumkin edi chunki bobosida ham shokolad bor edi lekin u shokoladni olgan zahoti jarayon toxtaydi -->
+            <!-- Element oziga kerakli xossani olgani zahoti jarayon toxtaydi -->
+            <!-- Ajdodidan voris olish jarayoni bir xossa uchun unikal tarzda boladi birinchi olgan merosi boshqa ajdodida bolsa ham bunda birinchi qiymati olinadi -->
+            <!-- Masalan farzandga familiya qoyish kerak u birinchi bolib dadasidan soraydi va u dadasini familiyasini oladi va jarayon tugaydi lekin u bobosinbi familiyasini ham olishi mumkin edi lekin xossa uchun doim birinchi qiymat olinadi -->
+            <p>Paragraph</p>
+        </div>
+    </section>
+</body>
+
+</html>
+
+<!-- Inheritance (Meros olish) Tag ozining ichida joylashgan barcha Tag uchun ota ona vazifasini bajaradi -->
+<!-- Ota tag da still berilgan bolsa bu barcha bola tag ga tegishli boladi (Agar ularda style berilmagan bolsa) -->
+<!-- Ota ona - parent -->
+<!-- Bola - children -->
+<!-- Agar bola teg ga ota tegda bor still yozilsa u ozining stilini ishlatadi ota stilini emas Ota stili faqat bola stilida yoq bolsagina ishlaydi -->
+<!-- Agar ozida still bolmasa u ota oansidan soraydi -->
+<!-- Agar ozida bolsa u ota onadan soramaydi -->
+<!-- Agar element ozining xossasi (stiliga ega bolmasa) u ajdodlaridan soraydi -->
+<!-- Agar elementning ma'lum bir xossasi (stili) bo'lmasa u ajdodlaridan sorashni boshlaydi bu holat toki osha stillni topmaguncha davom etadi -->
+<!-- Bazi bir otaga berilgan xossalar farzandga meros bolib otmasligi mumkin -->

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cascading&Specifity (O'ziga xoslik)</title>
+    <link rel="stylesheet" href="/dars/css/style5.css">
+    <!-- link ulash -->
+    <style>
+        /* internal style uchun */
+        #heading1 {
+            /* id orqali */
+            color: red;
+            /* rang berish */
+        }
+
+        .heading {
+            /* class orqali */
+            font-family: sans-serif;
+            /* font berish */
+            font-size: 24px;
+            /* yozuv olchamini belgilash */
+            color: blue;
+            /* rang berish yozuvga */
+        }
+
+        h1 {
+            /* tag orqali */
+            font-size: 24px;
+            /* yozuv olchamini belgilash */
+            color: green;
+            /* rang berish yozuvga */
+        }
+    </style>
+</head>
+
+<body>
+    <h1 style="color: yellow; font-size: 100px;" id="heading1" class="heading">Heading 1</h1>
+    <!-- inline style berish -->
+     <!-- h1 tegi ga id, class berish va style atributi orqali inline (qatorni oziga still berish) -->
+</body>
+
+</html>
+
+<!-- Stilllar orasidagi munosabat -->
+<!--
+Inline styles > eng kattasi
+ID >
+Class >
+Atributes >
+Tags eng kichigi
+-->
