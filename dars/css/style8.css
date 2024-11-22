@@ -1,0 +1,13 @@
+/* Child Selector - Farzand Selektori (Belgilangan elementning farzandlari bo'lgan barcha elementlarni tanlaydi) */
+
+div>p {
+    /* Div farzandi bolgan barcha p elementlarni tanlaydi */
+    /* > farzandini bildiradi */
+    /* div ning farzandi deb oqiladi */
+    /* elementning farzandini tanlash usuli */
+    /* tanlangan elementning farzandi bo'lishi shart */
+    color: blue;
+    /* rang berish */
+    background-color: black;
+    /* orqa fon rangi */
+}

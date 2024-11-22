@@ -1,0 +1,15 @@
+/* Adjacent sibling selector - Qo'shni qardosh selektori (Bir ota onaga ega farzandlar) */
+/* Bir elementga yon qo'shni bo'lgan boshqa elementni tanlash uchun ishlatiladi */
+/* .parent > .child { } */
+
+div+p {
+    /* Div elementiga qo'shni bolgan p elementini tanlash */
+    /* + qo'shni bolishi kerak undan keyin keladigan elementni tanlash */
+    /* Bu divga qo'shni bo'lgan p elementini tanlaydi  faqat birinchisini*/
+    /* divdan keyin kelishi shart */
+    /* element yani tag ornida boshqa istalgan selektor ishlatish mumkin */
+    color: red;
+    background-color: blue;
+    /* rang berish */
+    /* orqa fon rangi */
+}

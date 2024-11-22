@@ -1,0 +1,17 @@
+/* Descendant selector - Avlod selektori Belgilangan elementning avlodlari bolgan barcha elementni tanlab oladi */
+/* Tanlangan elementning avlodi bo'lsa bo'ldi (aynan farzand bo'lishi shart emas) */
+
+div p {
+    /*  bo'sh space ' ' qoldirish avlodini bildiradi */
+    /* div ning avlodi deb oqiladi */
+    /* barcha div elementini topadi va uning avlodi bo'lgan barcha p elementiga still beradi */
+    /* elementning avlodiga still berish usuli */
+    /* Bu yerda div ham p ham element */
+    /* element = tag */
+    /* Bu yerda div elementning avlodiga still beriladi */
+    /* p elementi div ning avlodi yani uning ichida bolsa boldi (farzandi bolishi shart emas nevara evara ketaveradi) */
+    background-color: yellow;
+    /* orqa fon rangi */
+    color: red;
+    /* rang (yozuv uchun) */
+}

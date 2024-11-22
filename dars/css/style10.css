@@ -1,0 +1,11 @@
+/* General sibling selector - (Umumiy qardosh selektori) Bir elementga qo'shni bo'lgan barcha elementlarni tanlab olish uchun ishlatiladi */
+
+div~p {
+    /* ~ tilda */
+    /* Divning qardoshi bolgan barcha elementni tanlab olish */
+    /* sibling - qardosh (aka-uka, opa-singil, aka-singil, opa-uka ... ) */
+    /* Qo'shnisi deb atasa ham boladi */
+    /* divdan keyin kelgan barcha p elementlarini tanlab olish */
+    background-color: yellow;
+    /* orqa fon rangi */
+}

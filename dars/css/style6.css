@@ -1,0 +1,9 @@
+/* Combinators - Kombinatorlar */
+/* Combinators - Kombinatorlar ('selector' lar o'rtasidagi munosabatni (bog'liqlik) ko'rsatib beradigan maxsus simvollar) */
+/* Turlari */
+/*
+1. Descendant selector (avlod selektori): Selektorlarni yoki o'rtasidagi elementlarni avlod qilish selektori.
+2. Child selector (farzand selektori): Selektorlarning o'rtasidagi elementlarni farzand qilish selektori.
+3. Adjacent sibling selector (qo'shni qardosh selektori): Selektorlarni yoki o'rtasidagi elementlarni qo'shni qardosh qilish selektori.
+4. General sibling selector (umumiy qardosh selektori): Selektorlarni yoki o'rtasidagi elementlarni barcha qo'shni qardosh qilish selektori.
+*/
