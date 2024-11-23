@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>! Important</title>
+    <!-- Important - Hamma specifity (o'ziga xoslik) qoidalarini inkor etib, eng katta ustunlik berish uchun (Prioriet) -->
+    <style>
+        /* Hamma specifity (o'ziga xoslik) qoidalarini inkor etib, eng katta ustunlik berish uchun (Prioriet) */
+        h1 {
+            /* tag */
+            color: red !important;
+            /* color */
+            /* important berildi */
+        }
+
+        .sarlavha {
+            /* class */
+            color: green;
+            /* rang berish */
+        }
+
+        p {
+            color: blue !important;
+            font-size: 24px !important;
+            /* yozuv kattaligi */
+            background-color: red !important;
+        }
+
+        .text {
+            color: yellow;
+            font-size: 2px;
+            background-color: blue;
+        }
+    </style>
+    <!-- Internal styles -->
+</head>
+
+<body>
+    <h1>Important</h1>
+    <p class="text">Hamma specifity (o'ziga xoslik) qoidalarini inkor etib, eng katta ustunlik berish uchun (Prioriet)
+    </p>
+
+    <!-- Style berish turlari inline - qatorga still berish style= orqali, internal - style tag orqali still berish external tashqi css faylidan stillarni olish -->
+
+    <h1 class="sarlavha">!important yordamida style berildi!</h1>
+</body>
+
+</html>
