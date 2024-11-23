@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multiple classes</title>
+    <!-- Elementga bir nechta "class" lar ko'rsatish imkoniyati -->
+    <style>
+        .text-red {
+            /* class */
+            color: red;
+            /* rang */
+        }
+
+        .text-bold {
+            font-weight: bold;
+            /* qalinligi */
+        }
+
+        .text-green {
+            color: green;
+        }
+
+        /* Bu yerda text-red ni emas text-green ni qabul qiladi chunki u eng oxirida yozilgan color xossasiga*/
+
+        .text-italic {
+            font-style: italic;
+            /* font style berish (italic berildi) */
+        }
+
+        .text-background {
+            background-color: blue;
+        }
+    </style>
+    <!-- Internal styles -->
+    <!-- Style tag ida yozilgan css hossa agar hossalari bir hil bolsa eng oxirgi yozilgan qiymatini oladi -->
+</head>
+
+<body>
+    <h2>Elementga bir nechta "class" lar ko'rsatish imkoniyati</h2>
+    <div class="text-red text-bold text-background">Qizil va qalin ko'rinishdagi tekst</div> <br>
+    <div class="text-green text-bold text-background">Yashil va qalin ko'rinishdagi tekst</div>
+    <h1 class="text-green text-italic text-background">Yashil ko'rinishdagi italic sarlavha</h1>
+    <!-- bir nechta class larni bitta elementga qo'yish -->
+    <!-- bir elementga bir nechta class berishda '' qoldiriladi -->
+    <h3 class="text-green text-red">Bu Heading 3 elementi</h3>
+    <!-- Bu yerda text-green ni oladi chunki text-red dan keyin yozilgan yani oxirida (Faqat bir xil xossa berilgani uchun bunday hisoblanadi) -->
+</body>
+
+</html>

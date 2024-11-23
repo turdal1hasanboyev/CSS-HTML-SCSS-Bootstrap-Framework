@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Combined Selectors</title>
+    <!-- Qo'shma selektorlar - Combined selectors -->
+    <!-- Bir elementni bir nechta selektorlar kombinatsiyasi orqali tanlab olish -->
+    <style>
+        h1 {
+            /* tag oddiy */
+            color: red;
+            /* Rang berish */
+        }
+
+        h1.active {
+            /* active class iga ega h1 elementini tanlab olish */
+            /* Active klassi berish */
+            background-color: red;
+            color: white;
+        }
+
+        /* tag_name.class_name */
+        /* tag_name#id_name */
+        /* tag va class ni bir vaqtda tanlash */
+        /* tag va id ni bir vaqtda tanlash */
+        a.active {
+            /* a tag idagi active classini tanlab olish */
+            /* Active klassi berish */
+            background-color: blue;
+            /* orqa fon rangi */
+            color: red;
+            /* rang berish (yozuvga) */
+            text-decoration: underline;
+            /* text dekoratsiyasi */
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Combined Selectors</h1>
+    <h2>Qo'shma selektorlar</h2>
+    <p>Bir elementni bir nechta selektorlar kombinatsiyasi orqali tanlab olish</p>
+    <h1 class="active">Sarlavha 1</h1>
+    <h1>Sarlavha 2</h1>
+    <a href="#" class="active">Ilova 1</a>
+    <a href="#">Ilova 2</a>
+</body>
+
+</html>
