@@ -1,0 +1,42 @@
+/* Quti modeli */
+/* Content */
+/* Height, Widt */
+/* Padding */
+/* Border */
+/* Marging */
+/* Top - tepa qismi */
+/* Buttom - pastki qismi */
+/* Left - sol qismi */
+/* Right - o'ng qismi */
+
+/* Box model - quti modeli - HTMLdagi har bir element CSS uchun shu modelga asosolangan bo'ladi. Ya'ni CSS har bir elementimizni Box(Quti) modeli ostida ko'radi */
+
+/* Padding - elementning content qismidan border (chegara) qismigacha bo'lgan masofa */
+
+.box {
+    background-color: red;
+    padding: 20px;
+    /* Elementdan chegaragacha bo'lgan masofa */
+
+    border-width: 5px;
+    /* chegara qalinligi */
+    border-style: solid;
+    /* chegara style */
+    border-color: blue;
+    /* chegara rangi */
+
+    /* margin: 10px; */
+    /* Elementdan keyingi elementgacha bo'lgan masofa */
+    /* elementning tashqi bo'sh joyini (external spacing) belgilaydi. */
+    margin: 20px;
+    /* Ikki element orasidagi masofa */
+}
+
+/* Border chegara */
+
+/* Margin element va uning atrofidagi elementlar orasidagi masofa */
+
+.box2 {
+    background-color: yellow;
+    margin: 10px;
+}
