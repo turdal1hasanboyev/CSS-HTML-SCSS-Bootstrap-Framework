@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Block va Inline elementlar</title>
+    <link rel="stylesheet" href="/dars/css/style15.css">
+    <style>
+        .heading-1 {
+            /* class */
+            background-color: red;
+            /* fon rangi */
+        }
+
+        .heading-2 {
+            background-color: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Block element - ota-ona (parent) elementni to'lliq kengligiga yoyiladi va har doim yangi qatordan boshlanadi -->
+    <!-- va yana bir qator taglar block element yaratadi -->
+    <!-- div, h1, .. h6, ul, li, ol, table, p, ... -->
+    <h1 class="heading-1">Sarlavha</h1>
+    <h2 class="heading-2">Sarlavha</h2>
+    <!-- Inline element - faqatgina o'zini kontenti uchun yetarli bo'ladigan kenglikka ega bo'ladi va yangi qatordan boshlanmaydi aksincha yonma-yon joylashadi -->
+    <!-- Inline elementlar: span, a, img, input, textarea, select, button, ... -->
+    <a class="ilova" href="#">Ilova</a>
+    <a class="ilova" href="#">Ilova</a>
+    <a class="ilova" href="#">Ilova</a>
+    <a class="to-block" href="#">Block elementga aylantirish</a>
+    <h1 class="to-inline">Inline elementga aylantirish</h1>
+    <a href="#">Ilova</a>
+    <span class="to-inline-block"> Inline-Block elementga aylantirish</span>
+    <h1 class="to-none">Salom!</h1>
+</body>
+
+</html>

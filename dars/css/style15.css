@@ -1,0 +1,44 @@
+/* Display - Elementimizni veb sahifamizda qanday korsatilishini belgilaydi */
+
+/* block - element block elementga xos xususiyatlarga ega bo'lishi mumkin, masalan: display: block; */
+
+.to-block {
+    /* class */
+    display: block;
+    /* elementni block elementga aylantirish */
+    /* display ni bloklash */
+}
+
+/* inline - element inline elementga xos xususiyatlarga ega bo'ladi */
+
+.to-inline {
+    display: inline;
+    /* elementni inline elementga aylantirish */
+    background-color: blue;
+    /* fon rangi */
+}
+
+/* Inline-Block - Inline elementga o'xshab faqatgina kontenti uchun yetarli boladigan kenglikka ega boladi va yonma-yon joylashadi */
+
+/* Qo'shimcha ravishda, block elementga oxshab width, height, margin/padding - top margin/padding - bottom xossalarini qabul qilishi mumkin boladi */
+
+/* Inline block elementga height, width, margin, padding, top/bottom xossalarini bera olmaymiz */
+
+.to-inline-block {
+    display: inline-block;
+    /* inline-block */
+    background-color: red;
+    /* fon rangi */
+    height: 100px;
+    /* balandlik */
+    width: 100px;
+    /* kenglik */
+}
+
+/* None - bu elementimizni web-sahifada berkitib turadi */
+
+.to-none {
+    /* class */
+    display: none;
+    /* none qilish (berkitish) */
+}

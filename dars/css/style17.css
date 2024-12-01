@@ -1,0 +1,83 @@
+/*
+Text decoration - matnni bezatish
+
+Underline - matnni tagida chiziq hosil qilish
+
+Line-through - matnni o'rtasida chiziq hosil qilish
+
+None - matnni bezatish qilmasdan qoldirish
+*/
+
+.heading-2 {
+    text-decoration: line-through;
+    /* Matnni o'rtasidan chizish */
+}
+
+.text-decoration-none {
+    text-decoration: none;
+}
+
+/* Pseudo class - elementning holatini aniqlash uchun ishlatiladi */
+
+/* selector_name:pseudo_class_name {xossa: qoymat;} */
+
+.text-decoration-none:hover {
+    text-decoration: none;
+    /* matnni berkitish */
+    color: red;
+    /* matn rangi */
+    background-color: blue;
+    /* fon rangi (orqa) */
+    /* Elementni hover holatida qizil rangda bo'lishi */
+    /* sichqoncha olib kelingandagi holat */
+}
+
+/* Holatlari */
+/* :hover - elementni ustiga sichqoncha kelgandagi holat */
+/* :active - elementni ustiga sichqoncha bosib turilgandagi holat */
+
+.active:active {
+    /* class:pseudo_class */
+    background-color: blue;
+    /* fon rangi */
+    color: white;
+    /* matn rangi */
+    /* Elementni ustiga sichqoncha bosib turilgandagi holat */
+}
+
+/* Grouping rules - bir nechta elementlarni birlashtirish */
+
+/* qoidalarni guruhlash */
+
+/* Grouping rules - bir nechta selektorlarni guruhlab, ularga bir xil css qoidasini (xosasini) ko'rsatib o'tish */
+
+/* .heading-9 {
+    background-color: red;
+    color: white;
+}
+
+.heading-10 {
+    background-color: red;
+    color: white;
+} */
+
+/* Bu ikkita selector bir xil (copy) xossaga ega */
+
+/* Bir kod ikki marta takrorlangan */
+
+/* Ularni guruhlab ikki selektor uchun bir xilda (style berib) kamroq kod yozish mumkin */
+
+/* selector, selector 2, selector 3 {Bir xil xossa: qoymat;} */
+
+.heading-9,
+.heading-10 {
+    background-color: red;
+    color: white;
+}
+
+/* Hohlagancha guruhlash mumkin */
+
+.heading-10 {
+    border: 5px, solid, blue;
+    /* chegara */
+}

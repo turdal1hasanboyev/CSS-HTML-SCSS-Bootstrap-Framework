@@ -1,0 +1,111 @@
+/* text-align - element ichidagi matnning gorizontal joylashuvini belgilab beradi */
+
+/* left - chap tarafga joylashadi */
+/* right - o'ng tarafga joylashadi */
+/* center - markazga joylashadi */
+
+.text-align-left {
+    text-align: left;
+    /* matnning joylashuvi */
+    background-color: red;
+    /* fon rangi */
+    /* chap tarafda joylashadi (matn) */
+}
+
+.text-align-right {
+    text-align: right;
+    background-color: red;
+    /* o'ng tarafda joylashadi (matn) */
+}
+
+.text-align-center {
+    text-align: center;
+    background-color: red;
+    /* fon rangi */
+    /* markazda joylashadi (matn) */
+}
+
+/* text-align faqat matn uchun ishlaydi (block element ichidagi inline element uchun) */
+
+/* text-align faqat block element uchun ishlaydi */
+
+/* Vertical-align - elementning vertikal joylashuvini belgilab beradi */
+
+/* top - elementni chiziqning tepa qismiga joylashtiradi */
+/* bottom - elementni chiziqning pastki qismiga joylashtiradi */
+/* middle - elementni chiziqning markaziga joylashtiradi */
+
+.container {
+    border: 1px, solid black;
+    /* kengligi, style, color */
+    /* chegara */
+    padding: 10px;
+    /* ichki tomondan bo'shlig' */
+}
+
+.container span {
+    /* class ichidagi span elementi uchun */
+    display: inline-block;
+    /* displayni inline-blockga o'zgartiradi */
+    /* vertical-align: top; */
+    /*  default holatda top ga joylashadi */
+    /* vertikal joylashuvni tepaga joylashtiradi */
+    /* vertical-align: bottom; */
+    /* vertikal joylashuvni pastga joylashtiradi */
+    vertical-align: middle;
+    /* vertikal joylashuvni markazga joylashtiradi */
+}
+
+.box-1 {
+    width: 100px;
+    /* kenglik */
+    height: 100px;
+    /* balandlik */
+    background-color: red;
+    /* rang (fon) */
+}
+
+.box-2 {
+    width: 100px;
+    /* kenglik */
+    height: 150px;
+    /* balandlik */
+    background-color: blue;
+    /* rang (fon) */
+}
+
+.box-3 {
+    width: 100px;
+    height: 50px;
+    background-color: yellow;
+}
+
+/*
+element.class_name
+berilgan elementga berilgan classni qo'shadi
+element berilmasa div deb qabul qiladi .class_name <div class="class_name">Text</div>
+span.class_name = <span class="class_name">Text</span>
+*/
+
+/* Float - elementning joylashuvini o'zgartiradi */
+
+/* Float - elementni ota-onasining chap yoki o'ng tomoniga joylashtirib, matn va inline elementlarni uning atrofini o'rashiga (suzishiga yordam beradi) */
+
+/* left - elementni chap tarafga joylashtiradi va boshqa elementlarni suzib o'tishiga yordam beradi */
+/* right - elementni o'ng tarafga joylashtiradi va boshqa elementlarni suzib o'tishiga yordam beradi */
+
+.box {
+    margin-left: 20px;
+    /* chap tomondagi masofa (ikki element o'rtasidagi (tashqi)) */
+    padding-left: 20px;
+    /* element ichidan surish chap tomonga */
+    width: 100px;
+    /* kenglik */
+    height: 200px;
+    /* balandlik */
+    background-color: red;
+    /* rang (fon) */
+    float: right;
+    /* elementni o'ng tarafga joylashtiradi */
+    /* left yoki right float qilish uchun */
+}
