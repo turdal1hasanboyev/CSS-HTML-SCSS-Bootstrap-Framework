@@ -1,0 +1,111 @@
+/* Margin collapsing. Shorthands (Qisqartmalar) */
+
+/* Marging collapsing - ikki elementning margini bir-biriga qo'shiladi */
+
+/* Marging collapsing - ikki elementning top va bottom "margin" lari ba'zida birlashib, ikkovidan kattasiniki natijaviy margin bo'lib qoladi */
+
+/* collapsing - qulash */
+
+.box1 {
+    background-color: aqua;
+    margin: 30px;
+    /* margin-bottom: 30px; */
+}
+
+.box2 {
+    margin: 20px;
+    background-color: blue;
+    /* margin-top: 20px; */
+}
+
+/* top va bottom o'zaro to'qnashsagina marging collapsing bo'ladi */
+
+/* Shorthands - CSS xossalarini qisqartirib yozish */
+
+/*
+border-widt: 5px;
+border-style: solid;
+border-color: blue;
+*/
+
+/* Qisqartirib yozilgani */
+
+/* border: 5px, solid, blue; */
+
+.box {
+    border-width: 5px;
+    /* chegara */
+    border-style: solid;
+    /* style */
+    border-color: blue;
+    /* rangi */
+    margin: 10px;
+    /* marging - ikki element orasidagi masofa har tomondan */
+}
+
+.box3 {
+    border: 5px, solid, blue;
+    /* Qisqartma yozilishi */
+}
+
+/* Qo'llanma .class_name - berilgan class nomi bilan div ochib beradi  (HTMLda) */
+
+/* .div - div clasiga ega div ochib beradi */
+
+.box4 {
+    border-top: 5px, solid, blue;
+    /* tepa */
+    border-right: 2px, solid, yellow;
+    /* o'ng */
+    border-bottom: 7px, solid, blue;
+    /* pastki */
+    border-left: 10px, solid, red;
+    /* chap */
+}
+
+.box5 {
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+/* Har tarafga har hil margin yani masofa berish */
+
+/* Margin - ikki element orasidagi masofa */
+
+.box6 {
+    margin: 20px;
+}
+
+/* hamma tarafiga bir xil margin berish */
+
+.box7 {
+    margin: 10px, 20px;
+    /* top/bottom, left/right masofa berish */
+}
+
+/* tepa va past uchun alohida, o'ng va chap uchun alohida 2 ta qiymat berish */
+
+.box8 {
+    /* top = 10px, left/right = 20px, bottom = 30px */
+    margin: 10px, 20px, 30px;
+}
+
+/* top va left/right va bottom masofa berish */
+
+.quti1 {
+    /* Top, Right, Bottom, Left masofa berish */
+    /* top = 10px, right = 20px, bottom = 30px, left = 40px */
+    margin: 10px, 20px, 30px, 40px;
+}
+
+/* to'rt tarafga bir line da style berish */
+
+/* Tepa, O'ng, Past, Chap */
+
+/* Padding ni ham huddi shunday qisqartma ko'rinishida yozish mummin */
+
+/* margin tashqi masofa chegaradan tashqarida (border dan tashqarida) */
+
+/* padding ichki masofa chegaradan ichkarida (border dan ichkarida) */

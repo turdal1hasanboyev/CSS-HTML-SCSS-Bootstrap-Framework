@@ -1,0 +1,104 @@
+/* height - balandlik */
+
+/* width - kenglik */
+
+/* .box {
+    height: 10px;
+    background-color: red;
+} */
+
+/* height berildi */
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+}
+
+.box {
+    height: 50%;
+    background-color: red;
+    text-align: center;
+    padding-top: 25%;
+    /* tepadan elementni surish (ichki tomondan) */
+    display: block;
+    /* displayni bloklash */
+}
+
+.box1 {
+    height: 50%;
+    background-color: blue;
+}
+
+/* height berildi */
+
+.box2 {
+    width: 100%;
+    height: 100px;
+    background-color: aqua;
+}
+
+/* kenglik berildi */
+
+/* odatda % va px da beriladi */
+
+/* Block element default holatda width 100% ga teng  boladi */
+
+/* max-height - elementimiz ega bo'lishi mumkin bo'lgan eng katta balandlik qiymatini belgilaydi (uning balandligi) ko'rsatilgan qiymatdan katta bo'lishi mumkin emas lekin kichik bolishi mumkin */
+
+/* min-height - elementimiz ega bo'lishi mumkin bo'lgan eng kichik balandlik qiymatini belgilaydi (uning balandligi) ko'rsatilgan qiymatdan kichik bo'lishi mumkin emas lekin katta bolishi mumkin */
+
+.paragraph-1 {
+    max-height: 30px;
+    /* ega bolishi mumkin bolgan eng katta balandlik */
+    background-color: green;
+    /* min-height: 15px; */
+    /* ega bolishi mumkin bo'lgan eng kichik balandlik */
+    overflow: auto;
+    /* sichqoncha da yurgazish uchun scroll qilish */
+}
+
+.paragraph-2 {
+    min-height: 30px;
+    /* ega bolishi mumkin bo'lgan eng kichik balandlik */
+    /* max-height: 30px; */
+    /* ega bolishi mumkin bolgan eng katta balandlik */
+    background-color: yellow;
+    /* orqa foni */
+}
+
+/* max-width - elementimiz ega bo'lishi mumkin bo'lgan eng katta kenglik qiymatini belgilaydi (uning kengligi) ko'rsatilgan qiymatdan katta bo'lishi mumkin emas lekin kichik bolishi mumkin */
+
+/* min-width - elementimiz ega bo'lishi mumkin bo'lgan eng kichik kengligi qiymatini belgilaydi (uning kengligi) ko'rsatilgan qiymatdan kichik bo'lishi mumkin emas lekin katta bolishi mumkin */
+
+.example {
+    min-width: 200px;
+    /* element ega bolishi mumkin bolgan eng kichik kenglik */
+    background-color: yellow;
+    display: inline-block;
+    /*  */
+    /* overflow: auto; */
+    /* scroll uchun */
+    margin-top: 100px;
+    /* tashqaridan */
+    /* tepadan surish */
+    padding: 100px;
+    /* ichkaridan */
+    /* har tarafdan surish */
+}
+
+.quticha {
+    /* class style */
+    display: inline-block;
+    /* display - qatorni bloklash uchun element keyingi qatorga o'tmaydi toki qator tugamaguncha */
+    width: 100px;
+    /* kenglik */
+    height: 100px;
+    /* balandlik */
+    background-color: lightblue;
+    /* fon rasmi */
+    margin: 10px;
+    /* element orasidagi masofa */
+}
