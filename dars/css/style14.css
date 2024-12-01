@@ -25,6 +25,8 @@ body {
     /* tepadan elementni surish (ichki tomondan) */
     display: block;
     /* displayni bloklash */
+    line-height: 50%;
+    /* yozuvning qatordagi balandligi */
 }
 
 .box1 {
@@ -102,3 +104,32 @@ body {
     margin: 10px;
     /* element orasidagi masofa */
 }
+
+.for-example {
+    color: blue;
+    /* rang (yozuv) */
+    background-color: brown;
+    /* orqa fon rangi */
+    height: 200px;
+    /* balandlik */
+    width: 200px;
+    /* Kenglik */
+    text-align: center;
+    /* yozuvning qayerda joylashishi */
+    align-items: center;
+    /* otasida display: flex; bolsa ishlaydi */
+    /* U bolalar elementlarini vertikal markazlashni boshqaradi (asosiy o‘q flex-direction xossasiga qarab o‘zgarmasa). */
+    line-height: 200px;
+    /* matn satri balandligini */
+    /* Line-height - bu matn va konteyner orasidagi vertikal masofani boshqaradi.
+    Agar konteynerning balandligi line-height bilan bir xil bo‘lsa, matn avtomatik ravishda vertikal markazga joylashadi. */
+    /* Faqat yozuv uchun ishlaydi */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* yozuv turi */
+    font-style: italic;
+    /* yozuv stili */
+    font-size: 20px;
+    /* yozuv kattaligi */
+}
+
+/* yozuv turi va yozuv stili boshqa boshqa narsalar */
